@@ -25,7 +25,7 @@
 
 官方文档 http://www.rongcloud.cn/docs/cordova.html
 
-#运行demo
+# 运行demo
 
 1.cordova create MyApp
 2.cd MyApp
