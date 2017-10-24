@@ -27,10 +27,14 @@
 
 # 运行demo
 
-1.cordova create MyApp
-2.cd MyApp
-3.cordova platform add android
-4.cordova plugin add https://github.com/ZhichengChen/cordova-plugin-imlib-android
+1.`cordova create MyApp`
+
+2.`cd MyApp`
+
+3.`cordova platform add android`
+
+4.`cordova plugin add https://github.com/ZhichengChen/cordova-plugin-imlib-android`
+
 5.打开`platforms/android/build.gradle`添加如下内容
 
     dependencies {
@@ -38,9 +42,13 @@
     }
 
     repositories { flatDir { dirs 'aars' } }
-6.cordova run android
-7.运行 https://github.com/ZhichengChen/rongcloud-cordova-server-demo，浏览器访问获得token
-8.chrome 访问 chrome://inspect 选择设备
+    
+6.`cordova run android`
+
+7.运行 `https://github.com/ZhichengChen/rongcloud-cordova-server-demo`，浏览器访问获得token
+
+8.chrome 访问 `chrome://inspect` 选择设备
+
 9.console 里输入
 
       var token = '';
