@@ -22,3 +22,5 @@
 3.融云 Cordova 服务器例子 https://github.com/ZhichengChen/rongcloud-cordova-server-demo 配合获得token
 
 目前仅测试通过安卓平台
+
+官方文档 http://www.rongcloud.cn/docs/cordova.html
