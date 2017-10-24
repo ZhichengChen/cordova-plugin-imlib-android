@@ -17,7 +17,7 @@
         compile(name: 'HMS-SDK-2.4.0.300', ext: 'aar')
     }
 
-  repositories { flatDir { dirs 'aars' } }
+    repositories { flatDir { dirs 'aars' } }
 
 3.打开`platforms/android/src/org/apache/cordova/media/AudioPlayer.java`，将startRecording中 case NONE: 中加入并替换为
 
