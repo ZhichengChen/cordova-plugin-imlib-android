@@ -13,18 +13,18 @@
 
 2.打开`platforms/android/build.gradle`，添加如下内容
 
-  dependencies {
-      compile(name: 'HMS-SDK-2.4.0.300', ext: 'aar')
-  }
+    dependencies {
+        compile(name: 'HMS-SDK-2.4.0.300', ext: 'aar')
+    }
 
   repositories { flatDir { dirs 'aars' } }
 
 3.打开`platforms/android/src/org/apache/cordova/media/AudioPlayer.java`，将startRecording中 case NONE: 中加入并替换为
 
-   this.recorder.setAudioSamplingRate(8000);
-   this.recorder.setAudioEncodingBitRate(7950);
-   this.recorder.setOutputFormat(MediaRecorder.OutputFormat.AMR_NB);
-   this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+    this.recorder.setAudioSamplingRate(8000);
+    this.recorder.setAudioEncodingBitRate(7950);
+    this.recorder.setOutputFormat(MediaRecorder.OutputFormat.AMR_NB);
+    this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
 
 官方文档 http://www.rongcloud.cn/docs/cordova.html
 
