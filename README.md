@@ -8,7 +8,7 @@
 
 # 安装
 
-1.`ordova plugin add https://github.com/ZhichengChen/cordova-plugin-imlib-android`
+1.`cordova plugin add https://github.com/ZhichengChen/cordova-plugin-imlib-android`
 
 
 2.打开`platforms/android/build.gradle`，添加如下内容
