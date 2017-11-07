@@ -19,7 +19,7 @@
     }
   ],
   "gitHead": "bde34090300c7a4c3c0a775f047663f478afb986",
-  "homepage": "https://github.com/rongcloud/cordova-plugin-rongcloud-im#readme",
+  "homepage": "https://github.com/ZhichengChen/cordova-plugin-rongcloud-im#readme",
   "keywords": [
     "RongCloud",
     "IM",
@@ -39,7 +39,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rongcloud/cordova-plugin-rongcloud-im.git"
+    "url": "git+https://github.com/ZhichengChen/cordova-plugin-rongcloud-im.git"
   },
   "scripts": {},
   "version": "2.3.10"
